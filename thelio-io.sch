@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:backplane-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -37,5 +36,11 @@ S 6300 650  1650 1550
 U 5B8327EE
 F0 "button" 50
 F1 "sch/button.sch" 50
+$EndSheet
+$Sheet
+S 8200 650  1650 1550
+U 5B997E79
+F0 "qi" 50
+F1 "sch/qi.sch" 50
 $EndSheet
 $EndSCHEMATC
