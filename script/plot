@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 '''
     A python script example to create plot files to build a board:
@@ -37,7 +37,7 @@ plotDir = sys.argv[2]
 board = LoadBoard(filename)
 
 #prepare the gerber job file
-gen_job_file=True
+gen_job_file=False
 
 pctl = PLOT_CONTROLLER(board)
 
@@ -138,14 +138,16 @@ metricFmt = True
 drlwriter.SetFormat( metricFmt )
 
 genDrl = True
-genMap = True
+genMap = False
 print 'create drill and map files in %s' % pctl.GetPlotDirName()
 drlwriter.CreateDrillandMapFilesSet( pctl.GetPlotDirName(), genDrl, genMap )
 
 # One can create a text file to report drill statistics
-rptfn = pctl.GetPlotDirName() + 'drill_report.rpt'
-print 'report: %s' % rptfn
-drlwriter.GenDrillReportFile( rptfn )
+gen_drill_report = False
+if gen_drill_report == True:
+    rptfn = pctl.GetPlotDirName() + 'drill_report.rpt'
+    print 'report: %s' % rptfn
+    drlwriter.GenDrillReportFile( rptfn )
 
 if gen_job_file == True:
     #job_fn=os.path.splitext(pctl.GetPlotFileName())[0] + '.gbrjob'
