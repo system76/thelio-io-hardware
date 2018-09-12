@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SATA)(type Legacy)(uri ${KIPRJMOD}/lib/SATA.lib)(options "")(descr ""))
+  (lib (name USB)(type Legacy)(uri ${KIPRJMOD}/lib/USB.lib)(options "")(descr ""))
+)

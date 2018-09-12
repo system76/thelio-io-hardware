@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP USB_IDC
+D USB IDC connector
+K connector
+F ~
+$ENDCMP
+#
+#End Doc Library

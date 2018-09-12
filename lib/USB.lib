@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# USB_IDC
+#
+DEF USB_IDC J 0 1 Y Y 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "USB_IDC" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 250 200 -150 1 1 10 f
+X VBUS 1 -200 200 150 R 50 50 1 1 P
+X D- 2 -200 100 150 R 50 50 1 1 P
+X D+ 3 -200 0 150 R 50 50 1 1 P
+X GND 4 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
