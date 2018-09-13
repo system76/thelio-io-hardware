@@ -23,10 +23,24 @@ PLOT=\
 	build/thelio-io-GND.Cu.gbr \
 	build/thelio-io-PWR.Cu.gbr \
 	build/thelio-io-PTH.drl \
-	build/thelio-io-NPTH.drl
+	build/thelio-io-NPTH.drl \
+	build/thelio-io-sas-CuBottom.gbr \
+	build/thelio-io-sas-MaskBottom.gbr \
+	build/thelio-io-sas-PasteBottom.gbr \
+	build/thelio-io-sas-SilkBottom.gbr \
+	build/thelio-io-sas-CuTop.gbr \
+	build/thelio-io-sas-MaskTop.gbr \
+	build/thelio-io-sas-PasteTop.gbr \
+	build/thelio-io-sas-SilkTop.gbr \
+	build/thelio-io-sas-EdgeCuts.gbr \
+	build/thelio-io-sas-GND.Cu.gbr \
+	build/thelio-io-sas-PWR.Cu.gbr \
+	build/thelio-io-sas-PTH.drl \
+	build/thelio-io-sas-NPTH.drl
 
 STEP=\
-	build/thelio-io.step
+	build/thelio-io.step \
+	build/thelio-io-sas.step
 
 .PHONY: all plot step clean
 
@@ -39,9 +53,9 @@ step: $(STEP)
 clean:
 	rm -rf build
 
-$(PLOT): thelio-io.kicad_pcb $(SRC)
-	./script/plot "$<" "$(@D)"
+$(PLOT): $(SRC)
+	for pcb in *.kicad_pcb; do ./script/plot "$$pcb" "$(@D)"; done
 
-$(STEP): thelio-io.kicad_pcb $(SRC)
+build/%.step: %.kicad_pcb $(SRC)
 	mkdir -p "$(@D)"
 	kicad2step --no-virtual --drill-origin --force -o "$@" "$<"
