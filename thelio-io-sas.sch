@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -25,5 +25,17 @@ S 2550 650  1500 1500
 U 5B9ACB00
 F0 "sas1" 50
 F1 "sch/sas1.sch" 50
+$EndSheet
+$Sheet
+S 4450 650  1500 1500
+U 5B9AAC91
+F0 "sas2" 50
+F1 "sch/sas2.sch" 50
+$EndSheet
+$Sheet
+S 6350 650  1500 1500
+U 5B9AADC1
+F0 "sas3" 50
+F1 "sch/sas3.sch" 50
 $EndSheet
 $EndSCHEMATC
