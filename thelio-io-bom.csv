@@ -3,7 +3,7 @@ Part,References,Description,Manufacturer,Manufacturer Part Number,SMT,THT,Fine,Q
 2,B0,TL3342 Button,E-Switch,TL3342F260QG,1,,,1,$0.447,$0.447,https://www.mouser.com/ProductDetail/E-Switch/TL3342F260QG?qs=sGAEpiMZZMsgGjVA3toVBFs%252bYYgf97FdJqg0XgoOhVc%3d
 3,C0,0201 Capacitor 1uF,Murata Electronics,GRM033C80G105MEA2D,1,,,1,$0.039,$0.039,https://www.mouser.com/ProductDetail/Murata-Electronics/GRM033C80G105MEA2D?qs=sGAEpiMZZMs0AnBnWHyRQJCHe%252bxtujbhGz%2fdskk3mBc%3d
 4,C1 C2,0201 Capacitor 22pF,Murata Electronics,GJM0335C0J220JB01D,2,,,2,$0.026,$0.052,https://www.mouser.com/ProductDetail/Murata-Electronics/GJM0335C0J220JB01D?qs=sGAEpiMZZMs0AnBnWHyRQHSMLfoHgeTXQ0VB5nHKd98%3d
-5,CPUIN0 CPUOUT0 EXHAUST0 INTAKE0,4-pin PC Fan,Molex,47053-1000,,4,,4,$0.314,$1.256,https://www.mouser.com/ProductDetail/Molex/47053-1000?qs=ph4zPCVRuvqoDX7hrEhxNA%3D%3D
+5,CPUIN0 CPUOUT0 INTAKE0,4-pin PC Fan,Molex,47053-1000,,3,,3,$0.314,$0.942,https://www.mouser.com/ProductDetail/Molex/47053-1000?qs=ph4zPCVRuvqoDX7hrEhxNA%3D%3D
 6,CPUMUX0,74LVC2G157 Multiplexer,Texas Instruments,SN74LVC2G157DCUR,1,,1,1,$0.266,$0.266,https://www.mouser.com/ProductDetail/Texas-Instruments/SN74LVC2G157DCUR?qs=sGAEpiMZZMtxONTBFIcRfmuVO38W6FdiKEw37Nn4MFA%3d
 7,DATA0 DATA1 DATA2 DATA3,SATA 7-pin Male Data Connector,Molex,67800-5005,4,,,4,$0.533,$2.132,https://www.mouser.com/ProductDetail/Molex/67800-5005?qs=sGAEpiMZZMvd2mIcYG7oaIzPQnor%252b3Em3pU6l%252b8bQTE%3d
 8,ICSP0,2x3-pin 2.54mm Male Header,Amphenol FCL,54202-S0803LF,1,,,1,$0.200,$0.200,https://www.mouser.com/ProductDetail/Amphenol-FCI/54202-S0803LF?qs=sGAEpiMZZMs%252bGHln7q6pmx%2fWs02WZxpzbZih6gIEkO8%3d
@@ -14,5 +14,5 @@ Part,References,Description,Manufacturer,Manufacturer Part Number,SMT,THT,Fine,Q
 13,SATA0 SATA1 SATA2 SATA3,SATA 22-pin Female Data and Power Connector,TE Connectivity,1735284-4,4,,,4,$1.810,$7.240,https://www.mouser.com/ProductDetail/TE-Connectivity-AMP/1735284-4?qs=sGAEpiMZZMvlX3nhDDO4ADJgWk%252bk0eLly6snOMIGsYo%3d
 14,Y0,2-pin 6x3.5mm 16MHz Crystal,ECS,ECS-160-18-23G-JGN-TR,1,,,1,$0.486,$0.486,https://www.mouser.com/ProductDetail/ECS/ECS-160-18-23G-JGN-TR?qs=sGAEpiMZZMsBj6bBr9Q9abMK2mGYOCsJPHVXJzRaS5ZeeV%2fcZo%2fuSQ%3d%3d
 ,,,,,,,,,,,
-,,,,,19,8,1,27,$0.560,$16.065,
+,,,,,19,7,1,26,$0.560,$15.751,
 ,,,,,SMT,THT,Fine,Parts,Average Part Cost,Total Cost,
