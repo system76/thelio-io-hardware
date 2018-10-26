@@ -8,7 +8,7 @@ Motherboard power button ground
 Power LED ground ground
 Motherboard power LED ground
 
-USB 1.1 AVR microcontroller (ATmega16U2)
+USB 1.1 AVR microcontroller (ATmega32u4)
 - Male USB header
 - Reprogrammable over USB DFU
 - 4 pin intake fan
