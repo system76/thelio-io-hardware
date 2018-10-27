@@ -2,15 +2,13 @@
 
 **Common Board Elements**
 
-Qi charger power (providing power and detecting phone presence). This could be part of the GPIO. Requires one +9V and one GND.
-
 Motherboard CPU fan input connector
 Power button ground ground
 Motherboard power button ground
 Power LED ground ground
 Motherboard power LED ground
 
-USB 1.1 AVR microcontroller (ATmega16U2)
+USB 1.1 AVR microcontroller (ATmega32U4)
 - Male USB header
 - Reprogrammable over USB DFU
 - 4 pin intake fan
@@ -29,12 +27,11 @@ USB 1.1 AVR microcontroller (ATmega16U2)
 - 1 pin power LED positive (out)
 - 1 pin motherboard power LED positive (in)
 
-**Thelio Board**
+**Thelio-Io Board**
 
 4 SATA ports and power
 Common Board Elements
 
-**Thelio M Board x 2 per system**
+**Thelio-Io-SAS**
 
-4 SATA + 2 U.2 (6 total)
-Common Board Elements
+4 U.2 ports and power
