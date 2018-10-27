@@ -1,7 +1,7 @@
 Part,References,Description,Manufacturer,Manufacturer Part Number,SMT,THT,Fine,Quantity,"Price (Mouser, 100)","Total (Mouser, 100)",Link (Mouser)
 1,POWER0,Molex ATA Male Power Connector,TE Connectivity,171825-4,,1,,1,$0.161,$0.161,https://www.mouser.com/ProductDetail/TE-Connectivity-AMP/171825-4?qs=4hg9R9g9MDuX23iAMtZp8g%3D%3D
-2,SAS0 SAS1,Mini SAS Female Data Connector,TE Connectivity,2227595-1,,2,2,2,$4.310,$8.620,https://www.mouser.com/ProductDetail/TE-Connectivity-AMP/2227595-1?qs=ZH26iPUykMX7%2FUCsNC121Q%3D%3D
-3,U.20 U.21,U.2 Female Data and Power Connector,Molex,78757-0001,2,,2,2,$9.360,$18.720,https://www.mouser.com/ProductDetail/Molex/78757-0001?qs=sGAEpiMZZMvd2mIcYG7oaH2GCt9oAJNH%252bSgSFttyOn0%3d
+2,SAS0 SAS1 SAS2 SAS3,Mini SAS Female Data Connector,TE Connectivity,2227595-1,,4,4,4,$4.310,$17.240,https://www.mouser.com/ProductDetail/TE-Connectivity-AMP/2227595-1?qs=ZH26iPUykMX7%2FUCsNC121Q%3D%3D
+3,U.2_0 U.2_1 U.2_2 U.2_3,U.2 Female Data and Power Connector,Molex,78757-0001,4,,4,4,$9.360,$37.440,https://www.mouser.com/ProductDetail/Molex/78757-0001?qs=sGAEpiMZZMvd2mIcYG7oaH2GCt9oAJNH%252bSgSFttyOn0%3d
 ,,,,,,,,,,,
-,,,,,2,3,4,5,$4.610,$27.501,
+,,,,,4,5,8,9,$4.610,$54.841,
 ,,,,,SMT,THT,Fine,Parts,Average Part Cost,Total Cost,
