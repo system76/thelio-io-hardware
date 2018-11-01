@@ -2,11 +2,11 @@
 
 **Common Board Elements**
 
-Motherboard CPU fan input connector
-Power button ground ground
-Motherboard power button ground
-Power LED ground ground
-Motherboard power LED ground
+- Motherboard CPU fan input connector
+- Power button ground ground
+- Motherboard power button ground
+- Power LED ground ground
+- Motherboard power LED ground
 
 USB 1.1 AVR microcontroller (ATmega32U4)
 - Male USB header
@@ -29,8 +29,8 @@ USB 1.1 AVR microcontroller (ATmega32U4)
 
 **Thelio-Io Board**
 
-4 SATA ports and power
-Common Board Elements
+- 4 SATA ports and power
+- Common Board Elements
 
 **Thelio-Io-SAS**
 
