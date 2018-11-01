@@ -40,90 +40,6 @@ F 3 "" H 6400 5600 50  0001 C CNN
 	1    6400 3600
 	1    0    0    -1  
 $EndComp
-Text Label 4700 5100 0    50   ~ 0
-T0+
-Text Label 4700 5200 0    50   ~ 0
-T0-
-Text Label 4700 5400 0    50   ~ 0
-T2+
-Text Label 4700 5500 0    50   ~ 0
-T2-
-Text Label 4700 4200 0    50   ~ 0
-T1+
-Text Label 4700 4300 0    50   ~ 0
-T1-
-Text Label 4700 4500 0    50   ~ 0
-T3+
-Text Label 4700 4600 0    50   ~ 0
-T3-
-Text Label 3650 5100 0    50   ~ 0
-R0+
-Text Label 3650 5200 0    50   ~ 0
-R0-
-Text Label 3650 5400 0    50   ~ 0
-R2+
-Text Label 3650 5500 0    50   ~ 0
-R2-
-Text Label 3650 4200 0    50   ~ 0
-R1+
-Text Label 3650 4300 0    50   ~ 0
-R1-
-Text Label 3650 4500 0    50   ~ 0
-R3+
-Text Label 3650 4600 0    50   ~ 0
-R3-
-$Comp
-L power:GND #PWR?
-U 1 1 5B9BBFC8
-P 4650 5000
-AR Path="/5B9BBFC8" Ref="#PWR?"  Part="1" 
-AR Path="/5B9ACA0D/5B9BBFC8" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 4650 4750 50  0001 C CNN
-F 1 "GND" V 4655 4872 50  0000 R CNN
-F 2 "" H 4650 5000 50  0001 C CNN
-F 3 "" H 4650 5000 50  0001 C CNN
-	1    4650 5000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5B9BBFCE
-P 4650 4700
-AR Path="/5B9BBFCE" Ref="#PWR?"  Part="1" 
-AR Path="/5B9ACA0D/5B9BBFCE" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 4650 4450 50  0001 C CNN
-F 1 "GND" V 4655 4572 50  0000 R CNN
-F 2 "" H 4650 4700 50  0001 C CNN
-F 3 "" H 4650 4700 50  0001 C CNN
-	1    4650 4700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5B9BBFD4
-P 4650 4100
-AR Path="/5B9BBFD4" Ref="#PWR?"  Part="1" 
-AR Path="/5B9ACA0D/5B9BBFD4" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 4650 3850 50  0001 C CNN
-F 1 "GND" V 4655 3972 50  0000 R CNN
-F 2 "" H 4650 4100 50  0001 C CNN
-F 3 "" H 4650 4100 50  0001 C CNN
-	1    4650 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5B9BBFDA
-P 4650 4400
-AR Path="/5B9BBFDA" Ref="#PWR?"  Part="1" 
-AR Path="/5B9ACA0D/5B9BBFDA" Ref="#PWR0104"  Part="1" 
-F 0 "#PWR0104" H 4650 4150 50  0001 C CNN
-F 1 "GND" V 4655 4272 50  0000 R CNN
-F 2 "" H 4650 4400 50  0001 C CNN
-F 3 "" H 4650 4400 50  0001 C CNN
-	1    4650 4400
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5B9BBFE0
@@ -384,176 +300,8 @@ F 3 "" H 5650 5300 50  0001 C CNN
 	1    5650 5300
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5B9BC058
-P 3850 5000
-AR Path="/5B9BC058" Ref="#PWR?"  Part="1" 
-AR Path="/5B9ACA0D/5B9BC058" Ref="#PWR0125"  Part="1" 
-F 0 "#PWR0125" H 3850 4750 50  0001 C CNN
-F 1 "GND" V 3855 4872 50  0000 R CNN
-F 2 "" H 3850 5000 50  0001 C CNN
-F 3 "" H 3850 5000 50  0001 C CNN
-	1    3850 5000
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5B9BC05E
-P 3850 5300
-AR Path="/5B9BC05E" Ref="#PWR?"  Part="1" 
-AR Path="/5B9ACA0D/5B9BC05E" Ref="#PWR0126"  Part="1" 
-F 0 "#PWR0126" H 3850 5050 50  0001 C CNN
-F 1 "GND" V 3855 5172 50  0000 R CNN
-F 2 "" H 3850 5300 50  0001 C CNN
-F 3 "" H 3850 5300 50  0001 C CNN
-	1    3850 5300
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5B9BC064
-P 3850 5600
-AR Path="/5B9BC064" Ref="#PWR?"  Part="1" 
-AR Path="/5B9ACA0D/5B9BC064" Ref="#PWR0127"  Part="1" 
-F 0 "#PWR0127" H 3850 5350 50  0001 C CNN
-F 1 "GND" V 3855 5472 50  0000 R CNN
-F 2 "" H 3850 5600 50  0001 C CNN
-F 3 "" H 3850 5600 50  0001 C CNN
-	1    3850 5600
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5B9BC06A
-P 3850 4400
-AR Path="/5B9BC06A" Ref="#PWR?"  Part="1" 
-AR Path="/5B9ACA0D/5B9BC06A" Ref="#PWR0128"  Part="1" 
-F 0 "#PWR0128" H 3850 4150 50  0001 C CNN
-F 1 "GND" V 3855 4272 50  0000 R CNN
-F 2 "" H 3850 4400 50  0001 C CNN
-F 3 "" H 3850 4400 50  0001 C CNN
-	1    3850 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5B9BC070
-P 3850 4100
-AR Path="/5B9BC070" Ref="#PWR?"  Part="1" 
-AR Path="/5B9ACA0D/5B9BC070" Ref="#PWR0129"  Part="1" 
-F 0 "#PWR0129" H 3850 3850 50  0001 C CNN
-F 1 "GND" V 3855 3972 50  0000 R CNN
-F 2 "" H 3850 4100 50  0001 C CNN
-F 3 "" H 3850 4100 50  0001 C CNN
-	1    3850 4100
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5B9BC076
-P 3850 4700
-AR Path="/5B9BC076" Ref="#PWR?"  Part="1" 
-AR Path="/5B9ACA0D/5B9BC076" Ref="#PWR0130"  Part="1" 
-F 0 "#PWR0130" H 3850 4450 50  0001 C CNN
-F 1 "GND" V 3855 4572 50  0000 R CNN
-F 2 "" H 3850 4700 50  0001 C CNN
-F 3 "" H 3850 4700 50  0001 C CNN
-	1    3850 4700
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5B9BC07C
-P 4650 5300
-AR Path="/5B9BC07C" Ref="#PWR?"  Part="1" 
-AR Path="/5B9ACA0D/5B9BC07C" Ref="#PWR0131"  Part="1" 
-F 0 "#PWR0131" H 4650 5050 50  0001 C CNN
-F 1 "GND" V 4655 5172 50  0000 R CNN
-F 2 "" H 4650 5300 50  0001 C CNN
-F 3 "" H 4650 5300 50  0001 C CNN
-	1    4650 5300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5B9BC082
-P 4650 5600
-AR Path="/5B9BC082" Ref="#PWR?"  Part="1" 
-AR Path="/5B9ACA0D/5B9BC082" Ref="#PWR0132"  Part="1" 
-F 0 "#PWR0132" H 4650 5350 50  0001 C CNN
-F 1 "GND" V 4655 5472 50  0000 R CNN
-F 2 "" H 4650 5600 50  0001 C CNN
-F 3 "" H 4650 5600 50  0001 C CNN
-	1    4650 5600
-	0    -1   -1   0   
-$EndComp
-Entry Wire Line
-	3500 4100 3600 4200
-Entry Wire Line
-	3500 4200 3600 4300
-Entry Wire Line
-	3500 4400 3600 4500
-Entry Wire Line
-	3500 4500 3600 4600
-Entry Wire Line
-	3500 5000 3600 5100
-Entry Wire Line
-	3500 5100 3600 5200
-Entry Wire Line
-	3500 5300 3600 5400
-Entry Wire Line
-	3500 5400 3600 5500
-Entry Wire Line
-	4900 5500 5000 5600
-Entry Wire Line
-	4900 5400 5000 5500
-Entry Wire Line
-	4900 5200 5000 5300
-Entry Wire Line
-	4900 5100 5000 5200
-Entry Wire Line
-	4900 4600 5000 4700
-Entry Wire Line
-	4900 4500 5000 4600
-Entry Wire Line
-	4900 4300 5000 4400
-Entry Wire Line
-	4900 4200 5000 4300
 Entry Bus Bus
 	5000 5750 5100 5850
-Wire Wire Line
-	4650 5100 4900 5100
-Wire Wire Line
-	4650 5200 4900 5200
-Wire Wire Line
-	4650 5400 4900 5400
-Wire Wire Line
-	4650 5500 4900 5500
-Wire Wire Line
-	4650 4200 4900 4200
-Wire Wire Line
-	4650 4300 4900 4300
-Wire Wire Line
-	4650 4500 4900 4500
-Wire Wire Line
-	4650 4600 4900 4600
-Wire Wire Line
-	3600 5100 3850 5100
-Wire Wire Line
-	3600 5200 3850 5200
-Wire Wire Line
-	3600 5400 3850 5400
-Wire Wire Line
-	3600 5500 3850 5500
-Wire Wire Line
-	3600 4200 3850 4200
-Wire Wire Line
-	3600 4300 3850 4300
-Wire Wire Line
-	3600 4500 3850 4500
-Wire Wire Line
-	3600 4600 3850 4600
 Entry Bus Bus
 	3500 5750 3600 5850
 Text Label 7100 4800 0    50   ~ 0
@@ -758,18 +506,6 @@ F 3 "" H 5650 4500 50  0001 C CNN
 	1    5650 4500
 	0    1    1    0   
 $EndComp
-Text Label 3650 3900 0    50   ~ 0
-CLK+
-Entry Wire Line
-	3500 3800 3600 3900
-Entry Wire Line
-	3500 3900 3600 4000
-Wire Wire Line
-	3600 3900 3850 3900
-Text Label 3650 4000 0    50   ~ 0
-CLK-
-Wire Wire Line
-	3600 4000 3850 4000
 Text Label 7100 2400 0    50   ~ 0
 CLK+
 Text Label 7100 2500 0    50   ~ 0
@@ -782,12 +518,6 @@ Wire Wire Line
 	7050 2400 7300 2400
 Wire Wire Line
 	7050 2500 7300 2500
-Text Label 3650 4800 0    50   ~ 0
-RST
-Entry Wire Line
-	3500 4700 3600 4800
-Wire Wire Line
-	3600 4800 3850 4800
 Text Label 7100 2200 0    50   ~ 0
 RST
 Wire Wire Line
@@ -796,18 +526,6 @@ Entry Wire Line
 	7300 2200 7400 2300
 Entry Bus Bus
 	5300 5750 5400 5850
-Text Label 4700 4800 0    50   ~ 0
-SDAT
-Text Label 4700 4900 0    50   ~ 0
-SCLK
-Entry Wire Line
-	4900 4900 5000 5000
-Entry Wire Line
-	4900 4800 5000 4900
-Wire Wire Line
-	4650 4800 4900 4800
-Wire Wire Line
-	4650 4900 4900 4900
 Text Label 7100 5400 0    50   ~ 0
 SCLK
 Text Label 7100 5500 0    50   ~ 0
@@ -820,39 +538,302 @@ Wire Wire Line
 	7050 5400 7300 5400
 Wire Wire Line
 	7050 5500 7300 5500
-Text Label 4700 3900 0    50   ~ 0
-ACT
-Entry Wire Line
-	4900 3900 5000 4000
-Wire Wire Line
-	4650 3900 4900 3900
 Text Label 5450 5200 0    50   ~ 0
 ACT
 Entry Wire Line
 	5300 5100 5400 5200
 Wire Wire Line
 	5400 5200 5650 5200
+Entry Wire Line
+	4900 4000 5000 4100
+Wire Wire Line
+	4650 4000 4900 4000
+Text Label 4700 4000 0    50   ~ 0
+CLK+
+Entry Wire Line
+	4900 4900 5000 5000
+Wire Wire Line
+	4650 4900 4900 4900
+Text Label 4700 4900 0    50   ~ 0
+CLK-
+Entry Wire Line
+	4900 5100 5000 5200
+Wire Wire Line
+	4650 5100 4900 5100
+Text Label 4700 5100 0    50   ~ 0
+R0+
+Entry Wire Line
+	4900 5200 5000 5300
+Wire Wire Line
+	4650 5200 4900 5200
+Text Label 4700 5200 0    50   ~ 0
+R0-
+Entry Wire Line
+	4900 4200 5000 4300
+Wire Wire Line
+	4650 4200 4900 4200
+Text Label 4700 4200 0    50   ~ 0
+R1+
+Entry Wire Line
+	4900 4300 5000 4400
+Wire Wire Line
+	4650 4300 4900 4300
+Text Label 4700 4300 0    50   ~ 0
+R1-
+Entry Wire Line
+	4900 4500 5000 4600
+Wire Wire Line
+	4650 4500 4900 4500
+Text Label 4700 4500 0    50   ~ 0
+R3+
+Entry Wire Line
+	4900 4600 5000 4700
+Wire Wire Line
+	4650 4600 4900 4600
+Text Label 4700 4600 0    50   ~ 0
+R3-
+Entry Wire Line
+	4900 5400 5000 5500
+Wire Wire Line
+	4650 5400 4900 5400
+Text Label 4700 5400 0    50   ~ 0
+R2+
+Entry Wire Line
+	4900 5500 5000 5600
+Wire Wire Line
+	4650 5500 4900 5500
+Text Label 4700 5500 0    50   ~ 0
+R2-
+Entry Wire Line
+	4900 3900 5000 4000
+Wire Wire Line
+	4650 3900 4900 3900
+Text Label 4700 3900 0    50   ~ 0
+RST
+Entry Wire Line
+	3500 5300 3600 5400
+Wire Wire Line
+	3600 5400 3850 5400
+Text Label 3650 5400 0    50   ~ 0
+T2+
+Entry Wire Line
+	3500 5400 3600 5500
+Wire Wire Line
+	3600 5500 3850 5500
+Text Label 3650 5500 0    50   ~ 0
+T2-
+Entry Wire Line
+	3500 5100 3600 5200
+Wire Wire Line
+	3600 5200 3850 5200
+Text Label 3650 5200 0    50   ~ 0
+T0-
+Entry Wire Line
+	3500 5000 3600 5100
+Wire Wire Line
+	3600 5100 3850 5100
+Text Label 3650 5100 0    50   ~ 0
+T0+
+Entry Wire Line
+	3500 4500 3600 4600
+Wire Wire Line
+	3600 4600 3850 4600
+Text Label 3650 4600 0    50   ~ 0
+T3-
+Entry Wire Line
+	3500 4400 3600 4500
+Wire Wire Line
+	3600 4500 3850 4500
+Text Label 3650 4500 0    50   ~ 0
+T3+
+Entry Wire Line
+	3500 4200 3600 4300
+Wire Wire Line
+	3600 4300 3850 4300
+Text Label 3650 4300 0    50   ~ 0
+T1-
+Entry Wire Line
+	3500 4100 3600 4200
+Wire Wire Line
+	3600 4200 3850 4200
+Text Label 3650 4200 0    50   ~ 0
+T1+
 $Comp
 L power:GND #PWR?
-U 1 1 5B9BC130
-P 3850 4900
-AR Path="/5B9BC130" Ref="#PWR?"  Part="1" 
-AR Path="/5B9ACA0D/5B9BC130" Ref="#PWR0141"  Part="1" 
-F 0 "#PWR0141" H 3850 4650 50  0001 C CNN
-F 1 "GND" V 3855 4772 50  0000 R CNN
-F 2 "" H 3850 4900 50  0001 C CNN
-F 3 "" H 3850 4900 50  0001 C CNN
-	1    3850 4900
+U 1 1 5BDDD739
+P 3850 4100
+AR Path="/5BDDD739" Ref="#PWR?"  Part="1" 
+AR Path="/5B9ACA0D/5BDDD739" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3850 3850 50  0001 C CNN
+F 1 "GND" V 3855 3972 50  0000 R CNN
+F 2 "" H 3850 4100 50  0001 C CNN
+F 3 "" H 3850 4100 50  0001 C CNN
+	1    3850 4100
 	0    1    1    0   
 $EndComp
-Wire Bus Line
-	5300 1400 5300 5750
+$Comp
+L power:GND #PWR?
+U 1 1 5BDDEF9D
+P 3850 4400
+AR Path="/5BDDEF9D" Ref="#PWR?"  Part="1" 
+AR Path="/5B9ACA0D/5BDDEF9D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3850 4150 50  0001 C CNN
+F 1 "GND" V 3855 4272 50  0000 R CNN
+F 2 "" H 3850 4400 50  0001 C CNN
+F 3 "" H 3850 4400 50  0001 C CNN
+	1    3850 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BDE0801
+P 3850 4700
+AR Path="/5BDE0801" Ref="#PWR?"  Part="1" 
+AR Path="/5B9ACA0D/5BDE0801" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3850 4450 50  0001 C CNN
+F 1 "GND" V 3855 4572 50  0000 R CNN
+F 2 "" H 3850 4700 50  0001 C CNN
+F 3 "" H 3850 4700 50  0001 C CNN
+	1    3850 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BDE2065
+P 3850 5000
+AR Path="/5BDE2065" Ref="#PWR?"  Part="1" 
+AR Path="/5B9ACA0D/5BDE2065" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3850 4750 50  0001 C CNN
+F 1 "GND" V 3855 4872 50  0000 R CNN
+F 2 "" H 3850 5000 50  0001 C CNN
+F 3 "" H 3850 5000 50  0001 C CNN
+	1    3850 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BDE38C9
+P 3850 5300
+AR Path="/5BDE38C9" Ref="#PWR?"  Part="1" 
+AR Path="/5B9ACA0D/5BDE38C9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3850 5050 50  0001 C CNN
+F 1 "GND" V 3855 5172 50  0000 R CNN
+F 2 "" H 3850 5300 50  0001 C CNN
+F 3 "" H 3850 5300 50  0001 C CNN
+	1    3850 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BDE512D
+P 3850 5600
+AR Path="/5BDE512D" Ref="#PWR?"  Part="1" 
+AR Path="/5B9ACA0D/5BDE512D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3850 5350 50  0001 C CNN
+F 1 "GND" V 3855 5472 50  0000 R CNN
+F 2 "" H 3850 5600 50  0001 C CNN
+F 3 "" H 3850 5600 50  0001 C CNN
+	1    3850 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BDE9A68
+P 4650 4100
+AR Path="/5BDE9A68" Ref="#PWR?"  Part="1" 
+AR Path="/5B9ACA0D/5BDE9A68" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4650 3850 50  0001 C CNN
+F 1 "GND" V 4655 3972 50  0000 R CNN
+F 2 "" H 4650 4100 50  0001 C CNN
+F 3 "" H 4650 4100 50  0001 C CNN
+	1    4650 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BDEB2CC
+P 4650 4400
+AR Path="/5BDEB2CC" Ref="#PWR?"  Part="1" 
+AR Path="/5B9ACA0D/5BDEB2CC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4650 4150 50  0001 C CNN
+F 1 "GND" V 4655 4272 50  0000 R CNN
+F 2 "" H 4650 4400 50  0001 C CNN
+F 3 "" H 4650 4400 50  0001 C CNN
+	1    4650 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BDECB30
+P 4650 4700
+AR Path="/5BDECB30" Ref="#PWR?"  Part="1" 
+AR Path="/5B9ACA0D/5BDECB30" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4650 4450 50  0001 C CNN
+F 1 "GND" V 4655 4572 50  0000 R CNN
+F 2 "" H 4650 4700 50  0001 C CNN
+F 3 "" H 4650 4700 50  0001 C CNN
+	1    4650 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BDEE394
+P 4650 5000
+AR Path="/5BDEE394" Ref="#PWR?"  Part="1" 
+AR Path="/5B9ACA0D/5BDEE394" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4650 4750 50  0001 C CNN
+F 1 "GND" V 4655 4872 50  0000 R CNN
+F 2 "" H 4650 5000 50  0001 C CNN
+F 3 "" H 4650 5000 50  0001 C CNN
+	1    4650 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BDEFBF8
+P 4650 5300
+AR Path="/5BDEFBF8" Ref="#PWR?"  Part="1" 
+AR Path="/5B9ACA0D/5BDEFBF8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4650 5050 50  0001 C CNN
+F 1 "GND" V 4655 5172 50  0000 R CNN
+F 2 "" H 4650 5300 50  0001 C CNN
+F 3 "" H 4650 5300 50  0001 C CNN
+	1    4650 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BDF145C
+P 4650 5600
+AR Path="/5BDF145C" Ref="#PWR?"  Part="1" 
+AR Path="/5B9ACA0D/5BDF145C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4650 5350 50  0001 C CNN
+F 1 "GND" V 4655 5472 50  0000 R CNN
+F 2 "" H 4650 5600 50  0001 C CNN
+F 3 "" H 4650 5600 50  0001 C CNN
+	1    4650 5600
+	0    -1   -1   0   
+$EndComp
+Entry Wire Line
+	3500 4800 3600 4900
+Wire Wire Line
+	3600 4900 3850 4900
+Text Label 3650 4900 0    50   ~ 0
+WAKE
+Text Label 5450 4200 0    50   ~ 0
+WAKE
+Entry Wire Line
+	5300 4100 5400 4200
+Wire Wire Line
+	5400 4200 5650 4200
 Wire Bus Line
 	3600 5850 7500 5850
 Wire Bus Line
-	3500 3800 3500 5750
+	5300 1400 5300 5750
 Wire Bus Line
 	5000 3800 5000 5750
+Wire Bus Line
+	3500 3800 3500 5750
 Wire Bus Line
 	7400 1400 7400 5750
 $EndSCHEMATC
