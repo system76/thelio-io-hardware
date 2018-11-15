@@ -34,8 +34,8 @@ U 1 1 5B9BBFB1
 P 6400 3600
 AR Path="/5B9BBFB1" Ref="U.?"  Part="1" 
 AR Path="/5B9ACA0D/5B9BBFB1" Ref="U.2_0"  Part="1" 
-AR Path="/5B9AAC91/5B9BBFB1" Ref="U.2_2"  Part="1" 
-F 0 "U.2_2" H 6350 5665 50  0000 C CNN
+AR Path="/5B9AAC91/5B9BBFB1" Ref="U2_2"  Part="1" 
+F 0 "U2_2" H 6350 5665 50  0000 C CNN
 F 1 "U2_COMBINED_68" H 6350 5574 50  0000 C CNN
 F 2 "SATA:U2_COMBINED_68" H 6400 1050 50  0001 C CNN
 F 3 "" H 6400 5600 50  0001 C CNN
@@ -574,17 +574,13 @@ Entry Wire Line
 	5300 5100 5400 5200
 Wire Wire Line
 	5400 5200 5650 5200
-Entry Wire Line
-	4900 4000 5000 4100
-Wire Wire Line
-	4650 4000 4900 4000
-Text Label 4700 4000 0    50   ~ 0
+Text Label 3650 4000 0    50   ~ 0
 CLK+
 Entry Wire Line
 	4900 4900 5000 5000
 Wire Wire Line
 	4650 4900 4900 4900
-Text Label 4700 4900 0    50   ~ 0
+Text Label 3650 3900 0    50   ~ 0
 CLK-
 Entry Wire Line
 	4900 5100 5000 5200
@@ -638,7 +634,7 @@ Entry Wire Line
 	4900 3900 5000 4000
 Wire Wire Line
 	4650 3900 4900 3900
-Text Label 4700 3900 0    50   ~ 0
+Text Label 3650 4900 0    50   ~ 0
 RST
 Entry Wire Line
 	3500 5300 3600 5400
@@ -860,7 +856,7 @@ Entry Wire Line
 	3500 4800 3600 4900
 Wire Wire Line
 	3600 4900 3850 4900
-Text Label 3650 4900 0    50   ~ 0
+Text Label 4700 3900 0    50   ~ 0
 WAKE
 Text Label 5450 4200 0    50   ~ 0
 WAKE
@@ -868,6 +864,22 @@ Entry Wire Line
 	5300 4100 5400 4200
 Wire Wire Line
 	5400 4200 5650 4200
+Entry Wire Line
+	3500 3800 3600 3900
+Wire Wire Line
+	3600 3900 3850 3900
+Entry Wire Line
+	3500 3900 3600 4000
+Wire Wire Line
+	3600 4000 3850 4000
+Text Label 4700 4800 0    50   ~ 0
+SCLK
+Entry Wire Line
+	4900 4800 5000 4900
+Wire Wire Line
+	4650 4800 4900 4800
+Text Label 4700 4900 0    50   ~ 0
+SDAT
 Wire Bus Line
 	3600 5850 7500 5850
 Wire Bus Line
