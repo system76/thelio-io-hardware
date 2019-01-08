@@ -1,15 +1,15 @@
 References,Description,Manufacturer,MPN,Quantity,Octopart
 AVR0,ATMega32U4-AU Processor,Microchip Technology,ATMEGA32U4-AU,1,https://octopart.com/atmega32u4-au-microchip-77760310
 B0,TL3342 Button,E-Switch,TL3342F260QG,1,https://octopart.com/tl3342f260qg-e-switch-1062785
-C0,0402 Capacitor 1uF,Murata Electronics,GRM155R61C105KA12D,1,https://octopart.com/grm155r61c105ka12d-murata-21407243
-C1 C2,0402 Capacitor 22pF,Murata Electronics,GRM1555C1H220JA01D,2,https://octopart.com/grm1555c1h220ja01d-murata-15197536
+C0,0603 Capacitor 1uF,Murata,GRM188R61E105KE12D,1,https://octopart.com/grm188r61e105ke12d-murata-22848703
+C1 C2,0603 Capacitor 22pF,Murata,GRM1885C1H220GA01J,2,https://octopart.com/grm1885c1h220ga01j-murata-16413390
 CPUIN0 CPUOUT0 INTAKE0,4-pin PC Fan,Molex,47053-1000,3,https://octopart.com/47053-1000-molex-854935
 CPUMUX0,74LVC2G157 Multiplexer,Texas Instruments,SN74LVC2G157DCUR,1,https://octopart.com/sn74lvc2g157dcur-texas+instruments-472190
 DATA0 DATA1 DATA2 DATA3,SATA 7-pin Male Data Connector,Molex,67800-5005,4,https://octopart.com/67800-5005-molex-766337
 ICSP0,2x3-pin 2.54mm Male Header,Amphenol FCL,54202-S0803LF,1,https://octopart.com/54202-s0803lf-fci-40331896
 PFP0 PMB0 USB0,4-pin 2.54mm Male Header,Molex,22-28-4040,3,https://octopart.com/22-28-4040-molex-278172
 POWER0,Molex ATA Male Power Connector,TE Connectivity,171825-4,1,https://octopart.com/171825-4-te+connectivity-1709417
-R2,0402 100Ω Resistor,Panasonic,ERA-2AED101X,1,https://octopart.com/era-2aed101x-panasonic-43970741
-R0 R1,0402 22Ω Resistor,Panasonic,ERA-2AKD220X,2,https://octopart.com/era-2akd220x-panasonic-43973728
+R2,0603 100Ω Resistor,TE Connectivity,CRGH0603J100R,1,https://octopart.com/crgh0603j100r-te+connectivity-24382112
+R0 R1,0603 22Ω Resistor,TE Connectivity,CRGH0603J22R,2,https://octopart.com/crgh0603j22r-te+connectivity-24382096
 SATA0 SATA1 SATA2 SATA3,SATA 22-pin Female Data and Power Connector,TE Connectivity,1735284-4,4,https://octopart.com/1735284-4-te+connectivity-41893011
 Y0,2-pin 6x3.5mm 16MHz Crystal,ECS,ECS-160-18-23G-JGN-TR,1,https://octopart.com/ecs-160-18-23g-jgn-tr-ecs+international-84739950
