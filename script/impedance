@@ -119,6 +119,9 @@ for i, layer in enumerate(stackup):
                 er1 = dielectrics[0]["er"]
                 h1 = dielectrics[0]["thickness"]
                 print("    Coupled Microstrip", "t", t, "w", w, "s", s, "er1", er1, "h1", h1)
+
+                g = 1000 # TODO
+                print("create_bmp_for_microstrip_coupler", w, s, g, h1, t, 1.0, er1)
             elif len(dielectrics) == 2:
                 # asymmetric stripline
                 er1 = dielectrics[0]["er"]
