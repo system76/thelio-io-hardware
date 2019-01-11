@@ -1,0 +1,142 @@
+#!/usr/bin/env python3
+
+# All units in um
+
+COPPER_OZ = 35.0
+MIL = 25.4
+
+CONDUCTOR = "conductor"
+INSULATOR = "insulator"
+
+fr4 = {
+    "name": "FR4",
+    "kind": INSULATOR,
+    "thickness": 500.0,
+    "er": 4.2,
+}
+
+pp1080 = {
+    "name": "1080",
+    "kind": INSULATOR,
+    "thickness": 74.9,
+    "er": 4.2,
+}
+
+pp2116 = {
+    "name": "2116",
+    "kind": INSULATOR,
+    "thickness": 114.3,
+    "er": 4.2,
+}
+
+pcie = {
+    "name": "PCIe",
+    "width": 5.0 * MIL,
+    "spacing": 5.0 * MIL,
+    "reference": "GND",
+}
+
+def conductor(name, thickness=COPPER_OZ, planes=[], tracks=[]):
+    return {
+        "name": name,
+        "kind": CONDUCTOR,
+        "thickness": thickness,
+        "planes": planes,
+        "tracks": tracks,
+    }
+
+stackup = [
+    conductor("F", thickness=COPPER_OZ/3.0, tracks=[pcie]),
+    pp2116,
+    conductor("In1", planes=["GND"]),
+    fr4,
+    conductor("In2", planes=["GND"]),
+    pp1080,
+    pp1080,
+    conductor("In3", thickness=COPPER_OZ/3.0, tracks=[pcie]),
+    fr4,
+    conductor("In4", planes=["GND", "12V"]),
+    pp2116,
+    conductor("B", thickness=COPPER_OZ/3.0, tracks=[pcie]),
+]
+
+for i, layer in enumerate(stackup):
+    if layer["kind"] == CONDUCTOR:
+        print("Layer", layer["name"])
+        #TODO: Find dielectrics using track reference
+
+        dielectrics = []
+
+        above = {
+            "thickness": 0.0,
+            "er": None,
+        }
+
+        j = i
+        while j > 0:
+            j -= 1
+            other = stackup[j]
+            if other["kind"] == INSULATOR:
+                above["thickness"] += other["thickness"]
+                if above["er"] is None:
+                    above["er"] = other["er"]
+                elif above["er"] != other["er"]:
+                    raise Exception("above.er != other.er")
+            else:
+                break
+
+        if above["er"] is not None:
+            dielectrics.append(above)
+
+        below = {
+            "thickness": 0.0,
+            "er": None
+        }
+
+        j = i + 1
+        while j < len(stackup):
+            other = stackup[j]
+            if other["kind"] == INSULATOR:
+                below["thickness"] += other["thickness"]
+                if below["er"] is None:
+                    below["er"] = other["er"]
+                elif below["er"] != other["er"]:
+                    raise Exception("below.er != other.er")
+            else:
+                break
+            j += 1
+
+        if below["er"] is not None:
+            dielectrics.append(below)
+
+        t = layer["thickness"]
+        for track in layer["tracks"]:
+            print("  Track", track["name"])
+            w = track["width"]
+            s = track["spacing"]
+            if len(dielectrics) == 1:
+                # microstrip
+                er1 = dielectrics[0]["er"]
+                h1 = dielectrics[0]["thickness"]
+                print("    Coupled Microstrip", "t", t, "w", w, "s", s, "er1", er1, "h1", h1)
+            elif len(dielectrics) == 2:
+                # asymmetric stripline
+                er1 = dielectrics[0]["er"]
+                h1 = dielectrics[0]["thickness"]
+                er2 = dielectrics[1]["er"]
+                h2 = dielectrics[1]["thickness"]
+                print("    Coupled Asymetric Stripline", "t", t, "w", w, "s", s, "er1", er1, "h1", h1, "er2", er2, "h2", h2)
+            else:
+                raise Exception("missing reference")
+
+
+
+# create_bmp_for_microstrip_coupler \
+#     w \
+#     s \
+#     g \
+#     h \
+#     t \
+#     er1 \
+#     er2 \
+#     filename
