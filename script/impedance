@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+from subprocess import check_call
+
 # All units in um
 
 COPPER_OZ = 35.0
@@ -114,32 +116,56 @@ for i, layer in enumerate(stackup):
             print("  Track", track["name"])
             w = track["width"]
             s = track["spacing"]
+            filename = "build/" + layer["name"] + "_" + track["name"] + ".bmp"
             if len(dielectrics) == 1:
                 # microstrip
-                er1 = dielectrics[0]["er"]
-                h1 = dielectrics[0]["thickness"]
-                print("    Coupled Microstrip", "t", t, "w", w, "s", s, "er1", er1, "h1", h1)
+                h = dielectrics[0]["thickness"]
+                er2 = dielectrics[0]["er"]
+                print(
+                    "    Microstrip Coupler",
+                    "t", t,
+                    "w", w,
+                    "s", s,
+                    "h", h,
+                    "er", er2
+                )
 
-                g = 1000 # TODO
-                print("create_bmp_for_microstrip_coupler", w, s, g, h1, t, 1.0, er1)
+                er1 = 1.0
+                g = 5 * h # TODO
+                check_call([
+                    "create_bmp_for_microstrip_coupler",
+                    str(w),
+                    str(s),
+                    str(g),
+                    str(h),
+                    str(t),
+                    str(er1),
+                    str(er2),
+                    filename
+                ])
+                check_call([
+                    "atlc",
+                    "-S",
+                    "-d",
+                    "ac82ac=" + str(er2),
+                    filename
+                ])
             elif len(dielectrics) == 2:
                 # asymmetric stripline
                 er1 = dielectrics[0]["er"]
                 h1 = dielectrics[0]["thickness"]
                 er2 = dielectrics[1]["er"]
                 h2 = dielectrics[1]["thickness"]
-                print("    Coupled Asymetric Stripline", "t", t, "w", w, "s", s, "er1", er1, "h1", h1, "er2", er2, "h2", h2)
+                print(
+                    "    Asymmetric Stripline Coupler",
+                    "t", t,
+                    "w", w,
+                    "s", s,
+                    "h1", h1,
+                    "er1", er1,
+                    "h2", h2,
+                    "er2", er2
+                )
+                # TODO
             else:
                 raise Exception("missing reference")
-
-
-
-# create_bmp_for_microstrip_coupler \
-#     w \
-#     s \
-#     g \
-#     h \
-#     t \
-#     er1 \
-#     er2 \
-#     filename
