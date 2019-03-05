@@ -1,37 +1,26 @@
 # Thelio Io Hardware
 
-**Common Board Elements**
+**Thelio-Io Board**
 
-- Motherboard CPU fan input connector
-- Power button ground ground
-- Motherboard power button ground
-- Power LED ground ground
-- Motherboard power LED ground
+This board design provides a SATA backplane for four drives, and an AVR microcontroller running open source firmware that controls two fans and one power button.
 
-USB 1.1 AVR microcontroller (ATmega32U4)
+- 1 Molex power input
+- 4 SATA data inputs
+- 4 SATA power and data outputs
+- USB 1.1 AVR microcontroller (ATmega32U4)
 - Male USB header
 - Reprogrammable over USB DFU
 - 4 pin intake fan
-- 4 pin exhaust fan (or extra)
+- 4 pin CPU fan input
 - 4 pin CPU fan output - Y connector to two CPU fans
-- 1 pin relay circuit for CPU fan
-- 1 pin secondary board select
-- Temperature sensor:
-    - 2 pin thermistor - requires ADC
-    - I2C sensor
-- 2 pin I2C & SPI pin headers
-- GPIO pin headers
-- UART headers
-- 1 pin power button positive (in)
-- 1 pin motherboard power button positive (out)
-- 1 pin power LED positive (out)
-- 1 pin motherboard power LED positive (in)
+- 4 pin motherboard power button input
+- 4 pin front panel power button output
 
-**Thelio-Io Board**
-
-- 4 SATA ports and power
-- Common Board Elements
 
 **Thelio-Io-SAS**
 
-4 U.2 ports and power
+This board design provides a NVMe backplane for four drives.
+
+- 1 Molex power input
+- 4 MiniSAS-HD data inputs
+- 4 U.2 power and data outputs
