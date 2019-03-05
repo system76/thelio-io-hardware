@@ -17,7 +17,7 @@ This board design provides a SATA backplane for four drives, and an AVR microcon
 - 4 pin front panel power button output
 
 
-**Thelio-Io-SAS**
+**Thelio-Io-SAS Board**
 
 This board design provides a NVMe backplane for four drives.
 
