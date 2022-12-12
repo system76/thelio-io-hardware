@@ -2329,7 +2329,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 210.82 86.36 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7e939f07-8642-4689-8727-9660b52fff9f)
-    (property "Reference" "B1" (id 0) (at 210.82 80.391 0))
+    (property "Reference" "PWBT1" (id 0) (at 210.82 80.391 0))
     (property "Value" "SW_SPST" (id 1) (at 210.82 82.7024 0))
     (property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342" (id 2) (at 210.82 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2692,9 +2692,6 @@
     (path "/3a0f81ba-204f-45e9-83fb-f7bade0d2ad1"
       (reference "AVR1") (unit 1) (value "ATmega32U4-AU") (footprint "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.5x7.5mm")
     )
-    (path "/7e939f07-8642-4689-8727-9660b52fff9f"
-      (reference "B1") (unit 1) (value "SW_SPST") (footprint "Button_Switch_SMD:SW_SPST_TL3342")
-    )
     (path "/95d7b4e4-d090-4b4b-95d7-0687255342ed"
       (reference "C1") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -2742,6 +2739,9 @@
     )
     (path "/00000000-0000-0000-0000-00005b9b7b19"
       (reference "POWER1") (unit 1) (value "ATA_FLOPPY_POWER_4") (footprint "SATA:ATA_FLOPPY_POWER_4")
+    )
+    (path "/7e939f07-8642-4689-8727-9660b52fff9f"
+      (reference "PWBT1") (unit 1) (value "SW_SPST") (footprint "Button_Switch_SMD:SW_SPST_TL3342")
     )
     (path "/0a7c8d68-eedc-46bd-8a41-9ec0add1f19c"
       (reference "R1") (unit 1) (value "22") (footprint "Resistor_SMD:R_0603_1608Metric")
