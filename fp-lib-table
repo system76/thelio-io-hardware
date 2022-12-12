@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name Logo)(type KiCad)(uri ${KIPRJMOD}/lib/Logo.pretty)(options "")(descr ""))
-  (lib (name SATA)(type KiCad)(uri "$(KIPRJMOD)/lib/SATA.pretty")(options "")(descr ""))
+  (lib (name "Logo")(type "KiCad")(uri "${KIPRJMOD}/lib/Logo.pretty")(options "")(descr ""))
+  (lib (name "SATA")(type "KiCad")(uri "$(KIPRJMOD)/lib/SATA.pretty")(options "")(descr ""))
+  (lib (name "USB")(type "KiCad")(uri "${KIPRJMOD}/lib/USB.pretty")(options "")(descr ""))
 )
