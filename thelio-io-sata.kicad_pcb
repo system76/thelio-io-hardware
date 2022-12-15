@@ -1643,7 +1643,7 @@
   (gr_text "thelio-io-sata_1.0\nBoard must be RoHS compliant\nFabricate to IPC-A-600 Class II\nMaterial: Shengyi S1000-2 or equivalent\nInner copper 1 or 1/2 oz\nOuter copper, min 33.4 um finished\nBlack LPI solder mask over bare copper\nVendor may remove solder mask from via holes, \n     maximum of drill size + 3 mil\nFinish: OSP\nSilkscreen: white non conductive\n100% electrical test required\nRemove all unused pads from inner layers\nAll layers positive\nOverall thickness: 1.6 mm +- 10 %\n" (at 100.566562 91.82) (layer "Cmts.User") (tstamp d5090187-0929-4b9c-99b1-71e799ea0d2f)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (gr_text "Core: 1.3 mm typical" (at 52.566562 90.82) (layer "Cmts.User") (tstamp f5d0da25-0b8b-43e0-b8f8-bf62a84eacdd)
+  (gr_text "Core: as required for overall thickness" (at 52.566562 90.82) (layer "Cmts.User") (tstamp f5d0da25-0b8b-43e0-b8f8-bf62a84eacdd)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
 
