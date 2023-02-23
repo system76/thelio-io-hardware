@@ -1,4 +1,7 @@
 (sym_lib_table
   (lib (name "SATA")(type "KiCad")(uri "${KIPRJMOD}/lib/SATA.kicad_sym")(options "")(descr ""))
   (lib (name "USB")(type "KiCad")(uri "${KIPRJMOD}/lib/USB.kicad_sym")(options "")(descr ""))
+  (lib (name "QSPI_flash")(type "KiCad")(uri "${KIPRJMOD}/lib/QSPI_flash.kicad_sym")(options "")(descr ""))
+  (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/lib/RP2040.kicad_sym")(options "")(descr ""))
+  (lib (name "74LVC2G157")(type "KiCad")(uri "${KIPRJMOD}/lib/74LVC2G157.kicad_sym")(options "")(descr ""))
 )

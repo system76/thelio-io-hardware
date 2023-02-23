@@ -1,9 +1,10 @@
 /build
 /fp-info-cache
-/*bak
+*bak
 /*-cache.lib
 /*-backups/
 /*gerber*/
 /*.xml
 /*.csv
 /*.pdf
+*auto_saved*
