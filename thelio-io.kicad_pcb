@@ -4059,7 +4059,7 @@
     (path "/fa614763-caa2-4def-9cdb-2b13dec6a2a4")
     (zone_connect 2)
     (attr smd)
-    (fp_text reference "U2" (at -0.93 5.74 90) (layer "B.SilkS")
+    (fp_text reference "U2" (at -5.17 4.79 90) (layer "B.SilkS")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a8851c99-3b0f-4456-9738-870b4874d557)
     )
