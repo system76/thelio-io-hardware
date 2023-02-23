@@ -4581,7 +4581,7 @@
   (gr_text "Top Silkscreen" (at 27.21 61.93) (layer "F.SilkS") (tstamp 6dcf2a63-7f8b-4e92-930e-0dbb97838c08)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (gr_text "thelio-io_2.0" (at 36.15 49.75 90) (layer "F.SilkS") (tstamp 703df159-e0cf-42e8-8933-861b155858d7)
+  (gr_text "thelio-io_2.1" (at 36.15 49.75 90) (layer "F.SilkS") (tstamp 703df159-e0cf-42e8-8933-861b155858d7)
     (effects (font (size 1.5 1.5) (thickness 0.25)))
   )
   (gr_text "FRONT PANEL" (at 99.3 51.36) (layer "F.SilkS") (tstamp 74ad0a8f-f943-4cc0-ac62-37913612d402)
@@ -4626,7 +4626,7 @@
   (gr_text "Prepreg: 7628" (at 34.21 67.93) (layer "Cmts.User") (tstamp 731f946d-5c34-4df3-96be-1d61da445d61)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (gr_text "thelio-io_2.0\nBoard must be RoHS compliant\nFabricate to IPC-A-600 Class II\nMaterial: FR4\nInner copper 1 or 1/2 oz\nOuter copper, min 33.4 um finished\nBlack LPI solder mask over bare copper\nVendor may remove solder mask from via holes, \n     maximum of drill size + 3 mil\nFinish: OSP\nSilkscreen: white non conductive\n100% electrical test required\nRemove all unused pads from inner layers\nAll layers positive\nOverall thickness: 1.6 mm +- 10 %" (at 82.21 72.93) (layer "Cmts.User") (tstamp a565e6b1-321d-4339-a1d6-b91de4c28162)
+  (gr_text "thelio-io_2.1\nBoard must be RoHS compliant\nFabricate to IPC-A-600 Class II\nMaterial: FR4\nInner copper 1 or 1/2 oz\nOuter copper, min 33.4 um finished\nBlack LPI solder mask over bare copper\nVendor may remove solder mask from via holes, \n     maximum of drill size + 3 mil\nFinish: OSP\nSilkscreen: white non conductive\n100% electrical test required\nRemove all unused pads from inner layers\nAll layers positive\nOverall thickness: 1.6 mm +- 10 %" (at 82.21 72.93) (layer "Cmts.User") (tstamp a565e6b1-321d-4339-a1d6-b91de4c28162)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
 
