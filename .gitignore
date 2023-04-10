@@ -1,5 +1,5 @@
 /build
-/fp-info-cache
+*fp-info-cache
 *bak
 *~
 /*-cache.lib
