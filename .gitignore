@@ -1,6 +1,7 @@
 /build
 pcb-*/*fp-info-cache
 *bak
+*autosave*
 *~
 pcb-*/*-cache.lib
 pcb-*/*-backups/
