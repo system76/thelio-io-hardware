@@ -2647,7 +2647,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8d22eb13-4593-4458-b112-6703a44017ed)
     )
-    (fp_text value "G6K-2F-Y-TR" (at -0.04 -6.3 90) (layer "B.Fab")
+    (fp_text value "G6K-2F-Y-TR DC5" (at -0.04 -6.3 90) (layer "B.Fab")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 94bd9b81-5c80-4317-a735-a76bc5ead71d)
     )
