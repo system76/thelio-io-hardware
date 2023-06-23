@@ -1,0 +1,80 @@
+(footprint "SMTSO-M3-3" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Standoff, M2 threaded, 8 mm above PCB, solder in")
+  (tags "standoff")
+  (zone_connect 2)
+  (attr smd)
+  (fp_text reference "MH?" (at 0.1 -0.8) (layer "F.SilkS") hide
+      (effects (font (size 0.7 0.7) (thickness 0.127)))
+    (tstamp b7875195-447c-490c-b044-118f11af69c9)
+  )
+  (fp_text value "SMTSO" (at 0 1.27) (layer "F.SilkS") hide
+      (effects (font (size 0.7 0.7) (thickness 0.127)))
+    (tstamp 9f6c6897-9314-41a0-806d-4ea1bf4f450f)
+  )
+  (fp_arc (start -2.6 -1.002102) (mid -1.988743 -1.990845) (end -1 -2.602102)
+    (stroke (width 1) (type solid)) (layer "F.Paste") (tstamp 1d2d74bc-0545-4372-ba32-7beec6318372))
+  (fp_arc (start -1 2.6) (mid -1.988743 1.988743) (end -2.6 1)
+    (stroke (width 1) (type solid)) (layer "F.Paste") (tstamp 1b5a7153-5008-426f-8a22-bda4a09ee367))
+  (fp_arc (start 1.002102 -2.602102) (mid 1.990845 -1.990845) (end 2.602102 -1.002102)
+    (stroke (width 1) (type solid)) (layer "F.Paste") (tstamp ef317a3e-578a-42b3-a9f2-9f921ae829fe))
+  (fp_arc (start 2.602102 1) (mid 1.990845 1.988743) (end 1.002102 2.6)
+    (stroke (width 1) (type solid)) (layer "F.Paste") (tstamp 39192cfa-d07d-41ab-8a0b-177694bd432f))
+  (fp_poly
+    (pts
+      (xy -3.1 -2.2)
+      (xy -2.2 -3.1)
+      (xy -0.6 -3.1)
+      (xy -0.6 -2.7)
+      (xy -1.8 -1.65)
+      (xy -2.602102 -0.6)
+      (xy -3.1 -0.6)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.Paste") (tstamp 063802b4-a939-4c99-8c96-42b8f4735cb9))
+  (fp_poly
+    (pts
+      (xy -2.2 3.1)
+      (xy -3.1 2.2)
+      (xy -3.1 0.6)
+      (xy -2.7 0.6)
+      (xy -1.65 1.8)
+      (xy -0.6 2.602102)
+      (xy -0.6 3.1)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.Paste") (tstamp 200211ce-fa31-43ff-a7c2-849d4d5314db))
+  (fp_poly
+    (pts
+      (xy 2.2 -3.1)
+      (xy 3.1 -2.2)
+      (xy 3.1 -0.6)
+      (xy 2.7 -0.6)
+      (xy 1.65 -1.8)
+      (xy 0.6 -2.602102)
+      (xy 0.6 -3.1)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.Paste") (tstamp 0f433ee5-2e2b-4c3b-b53c-56995cb2bfb6))
+  (fp_poly
+    (pts
+      (xy 3.1 2.2)
+      (xy 2.2 3.1)
+      (xy 0.6 3.1)
+      (xy 0.6 2.7)
+      (xy 1.8 1.65)
+      (xy 2.602102 0.6)
+      (xy 3.1 0.6)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.Paste") (tstamp e86363b7-401e-41f3-9e08-837cd8a8e32d))
+  (pad "1" thru_hole circle (at 0 0) (size 5 5) (drill 4.22) (layers "*.Cu" "*.Mask")
+    (zone_connect 2) (tstamp 4318ceb1-781d-4dfa-9078-a0cd1cda2810))
+  (pad "1" smd roundrect (at 0 0) (size 6.5 6.5) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.2)
+    (zone_connect 2) (tstamp 0573d088-1579-43df-82f2-c729a0587df8))
+  (model "${KIPRJMOD}/lib/3D/SMTSO-M3-3-Body.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
